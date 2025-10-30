@@ -21,14 +21,19 @@ sudo apt install ros-humble-joint-state-publisher-gui
 sudo apt install ros-humble-xacro
 sudo apt install ros-humble-gazebo-ros-pkgs
 
-▶️ How to Run
+---
+
+##  How to Run
 1️⃣ Build the workspace
-bashCopy codecd ~/ros2_ws
+bash 
+cd ~/ros2_ws
 colcon build
 source install/setup.bash
 
 2️⃣ Launch in RViz
-bashCopy coderos2 launch my_robot_description display.launch.py
+bash 
+ros2 launch my_robot_description display.launch.py
 
 3️⃣ Launch in Gazebo
-bashCopy coderos2 launch my_robot_description gazebo.launch.py
+bash 
+ros2 launch my_robot_description gazebo.launch.py
